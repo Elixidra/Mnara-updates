@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"
-    xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
-    xmlns:dc="http://purl.org/dc/elements/1.1/">
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Mnara</title>
-    <link>https://raw.githubusercontent.com/Elixidra/Mnara-updates/main/appcast.xml\</link\>
+    <link>https://raw.githubusercontent.com/Elixidra/Mnara-updates/main/appcast.xml</link>
     <description>Mnara releases</description>
     <language>en</language>
+    <item>
+      <title>Mnara 1.0.0</title>
+      <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <pubDate>Tue, 31 Mar 2026 19:45:42 +0000</pubDate>
+      <enclosure
+        url="https://github.com/Elixidra/Mnara-updates/releases/download/v1.0.0/Mnara-1.0.0.dmg"
+        sparkle:edSignature="AO+fpgOejgFvzR+OZ5wDdiDpTFhAUj/pFyh1wonGnxCVwHX722yR96qmlQo3jkR2NB35gPyQO1BHibxD0ZW3BQ=="
+        length="4814403"
+        type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
