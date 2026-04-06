@@ -4,10 +4,22 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Mnara</title>
-    <link>https://raw.githubusercontent.com/Elixidra/Mnara-updates/main/appcast.xml</link>
+    <link>https://github.com/Elixidra/Mnara-updates/releases/latest/download/appcast.xml</link>
     <description>Mnara releases</description>
     <language>en</language>
     <item>
+      <title>Mnara 1.1.5</title>
+      <sparkle:shortVersionString>1.1.5</sparkle:shortVersionString>
+      <sparkle:version>16</sparkle:version>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <pubDate>Mon, 06 Apr 2026 10:07:30 +0000</pubDate>
+      <enclosure
+        url="https://github.com/Elixidra/Mnara-updates/releases/download/v1.1.5/Mnara-1.1.5.dmg"
+        sparkle:edSignature="KtWRh0BSMGjkKrCf8Fs6KPhAPVlTm19F7Dih/MLwa5x7ged/5Rti7Ejom7Zs8rjRPCm3LqWt9x6kakpKlCU9DQ=="
+        length="5009557"
+        type="application/octet-stream" />
+    </item>
+<item>
       <title>Mnara 1.1.3</title>
       <sparkle:shortVersionString>1.1.3</sparkle:shortVersionString>
       <sparkle:version>14</sparkle:version>
