@@ -8,6 +8,18 @@
     <description>Mnara releases</description>
     <language>en</language>
     <item>
+      <title>Mnara 1.3.4</title>
+      <sparkle:shortVersionString>1.3.4</sparkle:shortVersionString>
+      <sparkle:version>35</sparkle:version>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <pubDate>Thu, 30 Apr 2026 18:42:20 +0000</pubDate>
+      <enclosure
+        url="https://github.com/Elixidra/Mnara-updates/releases/download/v1.3.4/Mnara-1.3.4.dmg"
+        sparkle:edSignature="68mZ9Unh6bbVKEEcNyy8aFFd7u2pjM5ldXPZI6vYXx6aP6mjEtNkVnr5A2SscII//pYVBAlrtWATWr2sDo9FBQ=="
+        length="5261102"
+        type="application/octet-stream" />
+    </item>
+<item>
       <title>Mnara 1.3.3</title>
       <sparkle:shortVersionString>1.3.3</sparkle:shortVersionString>
       <sparkle:version>34</sparkle:version>
