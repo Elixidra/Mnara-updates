@@ -8,6 +8,18 @@
     <description>Mnara releases</description>
     <language>en</language>
     <item>
+      <title>Mnara 1.4.5</title>
+      <sparkle:shortVersionString>1.4.5</sparkle:shortVersionString>
+      <sparkle:version>46</sparkle:version>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <pubDate>Tue, 12 May 2026 10:16:25 +0000</pubDate>
+      <enclosure
+        url="https://github.com/Elixidra/Mnara-updates/releases/download/v1.4.5/Mnara-1.4.5.dmg"
+        sparkle:edSignature="zK5+qJOKcDogPkvNAqQ54ZMRxwjP9W/XP7Gq5b2YHXWAJhknegrXDOWFzFTZWLODHNYxM59clUgE6nh0jAtOCg=="
+        length="5661704"
+        type="application/octet-stream" />
+    </item>
+<item>
       <title>Mnara 1.4.4</title>
       <sparkle:shortVersionString>1.4.4</sparkle:shortVersionString>
       <sparkle:version>45</sparkle:version>
@@ -19,6 +31,5 @@
         length="5640463"
         type="application/octet-stream" />
     </item>
-
   </channel>
 </rss>
