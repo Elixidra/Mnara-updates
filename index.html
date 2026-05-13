@@ -1,18 +1,133 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Mnara is a lightweight, native macOS menu bar monitor for CPU, memory, network, disk, battery, and temperature." />
-    <meta name="theme-color" content="#f6fbff" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
-    <title>Mnara — macOS Menu Bar System Monitor</title>
-    <script type="module" crossorigin src="/Mnara-updates/assets/index-ZYMA7S-r.js"></script>
-    <link rel="stylesheet" crossorigin href="/Mnara-updates/assets/index-D7mGA9Cp.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Mnara's website has moved to the canonical Elixidra page."
+    />
+    <meta name="theme-color" content="#0f172a" />
+    <meta http-equiv="refresh" content="3; url=https://elixidra.com/mnara/" />
+    <link rel="canonical" href="https://elixidra.com/mnara/" />
+    <title>Mnara has moved</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #f8fbff;
+        --card: rgba(255, 255, 255, 0.88);
+        --text: #172033;
+        --muted: #5b6475;
+        --accent: #2563eb;
+        --accent-dark: #1d4ed8;
+        --ring: rgba(37, 99, 235, 0.22);
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0b1120;
+          --card: rgba(15, 23, 42, 0.9);
+          --text: #f8fafc;
+          --muted: #b6c0d1;
+          --accent: #60a5fa;
+          --accent-dark: #93c5fd;
+          --ring: rgba(96, 165, 250, 0.28);
+        }
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        min-height: 100vh;
+        margin: 0;
+        display: grid;
+        place-items: center;
+        padding: 2rem;
+        background:
+          radial-gradient(circle at top left, rgba(59, 130, 246, 0.2), transparent 32rem),
+          radial-gradient(circle at bottom right, rgba(14, 165, 233, 0.16), transparent 28rem),
+          var(--bg);
+        color: var(--text);
+        font-family:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+          "Segoe UI", sans-serif;
+      }
+
+      main {
+        width: min(100%, 42rem);
+        padding: clamp(2rem, 6vw, 4rem);
+        border: 1px solid rgba(148, 163, 184, 0.22);
+        border-radius: 28px;
+        background: var(--card);
+        box-shadow: 0 24px 80px rgba(15, 23, 42, 0.16);
+        text-align: center;
+        backdrop-filter: blur(18px);
+      }
+
+      .eyebrow {
+        margin: 0 0 1rem;
+        color: var(--accent);
+        font-size: 0.78rem;
+        font-weight: 800;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(2.25rem, 8vw, 4.5rem);
+        line-height: 0.95;
+        letter-spacing: -0.06em;
+      }
+
+      p {
+        margin: 1.25rem auto 0;
+        max-width: 32rem;
+        color: var(--muted);
+        font-size: clamp(1rem, 2vw, 1.14rem);
+        line-height: 1.7;
+      }
+
+      a.button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+        padding: 0.9rem 1.25rem;
+        border-radius: 999px;
+        background: var(--accent);
+        color: #fff;
+        font-weight: 800;
+        text-decoration: none;
+        box-shadow: 0 0 0 0.5rem var(--ring);
+        transition:
+          background 160ms ease,
+          transform 160ms ease;
+      }
+
+      a.button:hover,
+      a.button:focus-visible {
+        background: var(--accent-dark);
+        transform: translateY(-1px);
+      }
+
+      .note {
+        font-size: 0.95rem;
+      }
+    </style>
   </head>
   <body>
-    <div id="root"></div>
+    <main>
+      <p class="eyebrow">Mnara</p>
+      <h1>Website moved</h1>
+      <p>
+        Mnara's official website now lives on Elixidra. You will be redirected
+        shortly, or you can continue using the link below.
+      </p>
+      <a class="button" href="https://elixidra.com/mnara/">Visit the Mnara website</a>
+      <p class="note">This page remains available for Mnara update infrastructure.</p>
+    </main>
   </body>
 </html>
