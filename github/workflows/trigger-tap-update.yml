@@ -1,1 +1,17 @@
+name: Trigger Homebrew Tap Update
 
+on:
+  release:
+    types: [published]
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger homebrew-tap update workflow
+        run: |
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.TAP_UPDATE_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/Elixidra/homebrew-tap/actions/workflows/update-cask.yml/dispatches \
+            -d '{"ref":"main"}'
