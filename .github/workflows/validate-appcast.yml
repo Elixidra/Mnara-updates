@@ -1,0 +1,108 @@
+name: Validate Appcast
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate appcast XML is well-formed
+        run: |
+          python3 -c "
+          import xml.etree.ElementTree as ET
+          tree = ET.parse('appcast.xml')
+          root = tree.getroot()
+          print('✓ XML is well-formed')
+          "
+
+      - name: Validate required Sparkle fields
+        run: |
+          python3 -c "
+          import xml.etree.ElementTree as ET
+          NS = {
+            'sparkle': 'http://www.andymatuschak.org/xml-namespaces/sparkle'
+          }
+          tree = ET.parse('appcast.xml')
+          root = tree.getroot()
+          items = root.findall('.//item')
+          print(f'Found {len(items)} release entries')
+          errors = []
+          for item in items:
+            title = item.findtext('title') or ''
+            sv = item.findtext('sparkle:shortVersionString', namespaces=NS) or ''
+            v = item.findtext('sparkle:version', namespaces=NS) or ''
+            enc = item.find('enclosure')
+            if not title: errors.append(f'Missing title in item')
+            if not sv: errors.append(f'Missing shortVersionString in {title}')
+            if not v: errors.append(f'Missing version in {title}')
+            if enc is None:
+              errors.append(f'Missing enclosure in {title}')
+            else:
+              url = enc.get('url', '')
+              sig = enc.get('{http://www.andymatuschak.org/xml-namespaces/sparkle}edSignature', '')
+              length = enc.get('length', '')
+              if not url: errors.append(f'Missing enclosure url in {title}')
+              if not sig: errors.append(f'Missing edSignature in {title}')
+              if not length: errors.append(f'Missing length in {title}')
+          if errors:
+            for e in errors:
+              print(f'ERROR: {e}')
+            exit(1)
+          print('✓ All required fields present')
+          "
+
+      - name: Validate entries are in descending version order
+        run: |
+          python3 -c "
+          import xml.etree.ElementTree as ET
+          NS = {'sparkle': 'http://www.andymatuschak.org/xml-namespaces/sparkle'}
+          tree = ET.parse('appcast.xml')
+          root = tree.getroot()
+          items = root.findall('.//item')
+          versions = [int(item.findtext('sparkle:version', namespaces=NS) or 0) for item in items]
+          for i in range(len(versions) - 1):
+            if versions[i] <= versions[i+1]:
+              print(f'ERROR: Version order wrong at index {i}: {versions[i]} should be > {versions[i+1]}')
+              exit(1)
+          print(f'✓ Version order is correct: {versions}')
+          "
+
+      - name: Check latest DMG URL is reachable
+        run: |
+          python3 -c "
+          import xml.etree.ElementTree as ET
+          import urllib.request
+          NS = {'sparkle': 'http://www.andymatuschak.org/xml-namespaces/sparkle'}
+          tree = ET.parse('appcast.xml')
+          root = tree.getroot()
+          items = root.findall('.//item')
+          if not items:
+            print('ERROR: No items in appcast')
+            exit(1)
+          enc = items[0].find('enclosure')
+          url = enc.get('url', '') if enc is not None else ''
+          if not url:
+            print('ERROR: No URL in latest enclosure')
+            exit(1)
+          print(f'Checking: {url}')
+          req = urllib.request.Request(url, method='HEAD')
+          try:
+            with urllib.request.urlopen(req, timeout=15) as r:
+              print(f'✓ Latest DMG URL reachable: HTTP {r.status}')
+          except urllib.error.HTTPError as e:
+            if e.code in (301, 302, 303, 307, 308):
+              print(f'✓ Latest DMG URL reachable: HTTP {e.code} redirect')
+            else:
+              print(f'ERROR: HTTP {e.code} for {url}')
+              exit(1)
+          except Exception as e:
+            print(f'ERROR: {e}')
+            exit(1)
+          "
