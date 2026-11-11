@@ -8,6 +8,19 @@
     <description>Mnara releases</description>
     <language>en</language>
     <item>
+      <title>Mnara 1.5.6</title>
+      <sparkle:shortVersionString>1.5.6</sparkle:shortVersionString>
+      <sparkle:version>57</sparkle:version>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <pubDate>Wed, 11 Nov 2026 16:56:58 +0000</pubDate>
+      <description><![CDATA[• CPU temperature: hottest CPU die sensor, never the SSD]]></description>
+      <enclosure
+        url="https://github.com/Elixidra/Mnara-updates/releases/download/v1.5.6/Mnara-1.5.6.dmg"
+        sparkle:edSignature="9imkPGsNwliH+iCuhD/qFHC7ck2owb01fyvXc31T4knGcMiWdLY0N1gJM3TTRfLOzCnV7ECKjN4uRK6XL3K9Bg=="
+        length="6070333"
+        type="application/octet-stream" />
+    </item>
+<item>
       <title>Mnara 1.5.5</title>
       <sparkle:shortVersionString>1.5.5</sparkle:shortVersionString>
       <sparkle:version>56</sparkle:version>
