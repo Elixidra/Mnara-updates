@@ -28,8 +28,8 @@
       <sparkle:version>58</sparkle:version>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <pubDate>Thu, 12 Nov 2026 10:08:24 +0000</pubDate>
-      <description><![CDATA[• Sparkle signing without Keychain pop-ups
-• Claude Code: engineering: In the Mnara product/repo, check whether the storage readings are c]]></description>
+      <description><![CDATA[• The Disk card now shows storage in decimal GB, matching Finder.
+• Reliability improvements.]]></description>
       <enclosure
         url="https://github.com/Elixidra/Mnara-updates/releases/download/v1.5.7/Mnara-1.5.7.dmg"
         sparkle:edSignature="NwUra/ROylq/YGR51q/EiFZPZ/wQgYF22cz9/4aNCQTtnuoLIe4hj65L0WKU+Dh/lgxdqr5KnahXM1iN2efxDQ=="
@@ -42,7 +42,7 @@
       <sparkle:version>57</sparkle:version>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <pubDate>Wed, 11 Nov 2026 16:56:58 +0000</pubDate>
-      <description><![CDATA[• CPU temperature: hottest CPU die sensor, never the SSD]]></description>
+      <description><![CDATA[• CPU temperature now shows the real processor reading instead of only a status word.]]></description>
       <enclosure
         url="https://github.com/Elixidra/Mnara-updates/releases/download/v1.5.6/Mnara-1.5.6.dmg"
         sparkle:edSignature="9imkPGsNwliH+iCuhD/qFHC7ck2owb01fyvXc31T4knGcMiWdLY0N1gJM3TTRfLOzCnV7ECKjN4uRK6XL3K9Bg=="
@@ -55,8 +55,8 @@
       <sparkle:version>56</sparkle:version>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <pubDate>Tue, 10 Nov 2026 16:46:09 +0000</pubDate>
-      <description><![CDATA[• fix: replace fake Free RAM with an honest memory view
-• Make release.sh meet the Mac app release standard (step B1)]]></description>
+      <description><![CDATA[• Free RAM now gives an honest view of memory: memory pressure, RAM in use and the apps using the most, with Quit buttons.
+• Reliability improvements.]]></description>
       <enclosure
         url="https://github.com/Elixidra/Mnara-updates/releases/download/v1.5.5/Mnara-1.5.5.dmg"
         sparkle:edSignature="1XgUjLINEnfSls286HB5zzSgTbinY/6tZ2LIpSA6I+/dN9Dy7lOW2rX/O6d3eec0GesZF1BstmYVHqyR+wGsBA=="
