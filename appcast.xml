@@ -8,6 +8,20 @@
     <description>Mnara releases</description>
     <language>en</language>
     <item>
+      <title>Mnara 1.5.7</title>
+      <sparkle:shortVersionString>1.5.7</sparkle:shortVersionString>
+      <sparkle:version>58</sparkle:version>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <pubDate>Thu, 12 Nov 2026 10:08:24 +0000</pubDate>
+      <description><![CDATA[• Sparkle signing without Keychain pop-ups
+• Claude Code: engineering: In the Mnara product/repo, check whether the storage readings are c]]></description>
+      <enclosure
+        url="https://github.com/Elixidra/Mnara-updates/releases/download/v1.5.7/Mnara-1.5.7.dmg"
+        sparkle:edSignature="NwUra/ROylq/YGR51q/EiFZPZ/wQgYF22cz9/4aNCQTtnuoLIe4hj65L0WKU+Dh/lgxdqr5KnahXM1iN2efxDQ=="
+        length="6070367"
+        type="application/octet-stream" />
+    </item>
+<item>
       <title>Mnara 1.5.6</title>
       <sparkle:shortVersionString>1.5.6</sparkle:shortVersionString>
       <sparkle:version>57</sparkle:version>
