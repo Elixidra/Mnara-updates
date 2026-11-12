@@ -8,6 +8,21 @@
     <description>Mnara releases</description>
     <language>en</language>
     <item>
+      <title>Mnara 1.5.8</title>
+      <sparkle:shortVersionString>1.5.8</sparkle:shortVersionString>
+      <sparkle:version>59</sparkle:version>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <pubDate>Thu, 12 Nov 2026 21:15:22 +0000</pubDate>
+      <description><![CDATA[• release.sh: read the Sparkle key and AC_NOTARY from RELEASE_KEYCHAIN when set
+• Claude Code: pipeline-failed pr · Claude Code: In Mnara (repo Mnara), review the UX of popup/
+• Claude Code: In Mnara, display storage in decimal GB everywhere: Disk Inspector, Developer Cl]]></description>
+      <enclosure
+        url="https://github.com/Elixidra/Mnara-updates/releases/download/v1.5.8/Mnara-1.5.8.dmg"
+        sparkle:edSignature="XhgwYhxPl2Kn4zym6uvuWKa+vIGyJg7gMI0cKaUAPTLpRoQ0lsF6EUDWqtiYf8Upus8AB+LgSixcgO+1e5QPDA=="
+        length="6059892"
+        type="application/octet-stream" />
+    </item>
+<item>
       <title>Mnara 1.5.7</title>
       <sparkle:shortVersionString>1.5.7</sparkle:shortVersionString>
       <sparkle:version>58</sparkle:version>
