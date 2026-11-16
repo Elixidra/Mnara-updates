@@ -13,8 +13,7 @@
       <sparkle:version>60</sparkle:version>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <pubDate>Mon, 16 Nov 2026 13:14:28 +0000</pubDate>
-      <description><![CDATA[• Add a small on-device Explain my Mac assistant.
-• Alert banner: glass, glowing accent border, two real buttons, no bar.
+      <description><![CDATA[• Alert banners have a new glass look with a glowing border and clearer action and Dismiss buttons.
 • Reliability improvements.]]></description>
       <enclosure
         url="https://github.com/Elixidra/Mnara-updates/releases/download/v1.5.9/Mnara-1.5.9.dmg"
