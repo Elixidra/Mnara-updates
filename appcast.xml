@@ -8,6 +8,21 @@
     <description>Mnara releases</description>
     <language>en</language>
     <item>
+      <title>Mnara 1.5.9</title>
+      <sparkle:shortVersionString>1.5.9</sparkle:shortVersionString>
+      <sparkle:version>60</sparkle:version>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <pubDate>Mon, 16 Nov 2026 13:14:28 +0000</pubDate>
+      <description><![CDATA[• Add a small on-device Explain my Mac assistant.
+• Alert banner: glass, glowing accent border, two real buttons, no bar.
+• Reliability improvements.]]></description>
+      <enclosure
+        url="https://github.com/Elixidra/Mnara-updates/releases/download/v1.5.9/Mnara-1.5.9.dmg"
+        sparkle:edSignature="d8bfrAY98X//v969fQ1RBxJXk1XHLCpucTgRMTdDLpBGVgUqTOc6e6vdsKfqCoRdih/RaFGgQruMwv/sXsn1AA=="
+        length="6063156"
+        type="application/octet-stream" />
+    </item>
+<item>
       <title>Mnara 1.5.8</title>
       <sparkle:shortVersionString>1.5.8</sparkle:shortVersionString>
       <sparkle:version>59</sparkle:version>
