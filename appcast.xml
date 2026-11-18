@@ -8,6 +8,23 @@
     <description>Mnara releases</description>
     <language>en</language>
     <item>
+      <title>Mnara 2.0.0</title>
+      <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
+      <sparkle:version>61</sparkle:version>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <pubDate>Wed, 18 Nov 2026 09:56:40 +0000</pubDate>
+      <description><![CDATA[• Settings → About now shows the build number next to the version.
+• Explain my Mac is now a Mnara 2.0 feature.
+• See a clear upgrade option to Mnara 2.0 from your 1.x version.
+• Explain my Mac: plain levels from code, clearer on-device instructions.
+• Reliability improvements.]]></description>
+      <enclosure
+        url="https://github.com/Elixidra/Mnara-updates/releases/download/v2.0.0/Mnara-2.0.0.dmg"
+        sparkle:edSignature="hHTtmNyxsS3HXCLThzOKIP6EQ6z+hKzqsWLfx0U6bxfEv8mvlS0Ep528H2fiQjFdYG6FTgOrxRp4Dc0m+zuQCA=="
+        length="6137117"
+        type="application/octet-stream" />
+    </item>
+<item>
       <title>Mnara 1.5.9</title>
       <sparkle:shortVersionString>1.5.9</sparkle:shortVersionString>
       <sparkle:version>60</sparkle:version>
