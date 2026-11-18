@@ -13,15 +13,9 @@
       <sparkle:version>62</sparkle:version>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <pubDate>Wed, 18 Nov 2026 13:15:22 +0000</pubDate>
-      <description><![CDATA[• New Health check (Mnara 2.0): battery, disk health and free space, heat, memory pressure, crashes and freezes, startup items.
-• Each check shows the macOS value behind it.
-• Alerts when a check gets worse, each with what was measured and one clear next step.
-• "Get help from Apple" appears only for hardware problems, and can be turned off in Settings.
-• Weekly health summary every Monday.
-• Explain my Mac now covers the Health check and only uses measured values.
-• Checks that can't read their data stay hidden instead of showing wrong values.
-• The upgrade banner can be closed with ×; the upgrade stays in Settings → License.
-• Reliability improvements.]]></description>
+      <description><![CDATA[• New Health check for your Mac (Mnara 2.0)
+• Alerts with one clear next step, weekly summary
+• Explain my Mac uses only measured values]]></description>
       <enclosure
         url="https://github.com/Elixidra/Mnara-updates/releases/download/v2.1.0/Mnara-2.1.0.dmg"
         sparkle:edSignature="QSkzU1dzey2kyoLk5+uwkKO/KKgJ8L2FNuyUF//SwNvKqj2IuRaD9R+8l7FkGW63vj77BwlXXTxrgyb3AZIKBA=="
