@@ -16,7 +16,8 @@
       <sparkle:informationalUpdate><sparkle:belowVersion>61</sparkle:belowVersion></sparkle:informationalUpdate>
       <link>https://elixidra.com/mnara</link>
       <pubDate>Thu, 19 Nov 2026 09:21:27 +0000</pubDate>
-      <description><![CDATA[• Reliability improvements.
+      <description><![CDATA[• Mnara 2.1.5 is available.
+• Reliability improvements.
 • Mnara 2 is a paid upgrade: elixidra.com/mnara]]></description>
       <enclosure
         url="https://github.com/Elixidra/Mnara-updates/releases/download/v2.1.5/Mnara-2.1.5.dmg"
