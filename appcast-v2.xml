@@ -8,6 +8,19 @@
     <description>Mnara releases</description>
     <language>en</language>
     <item>
+      <title>Mnara 2.1.5</title>
+      <sparkle:shortVersionString>2.1.5</sparkle:shortVersionString>
+      <sparkle:version>66</sparkle:version>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <pubDate>Thu, 19 Nov 2026 09:21:27 +0000</pubDate>
+      <description><![CDATA[• Reliability improvements.]]></description>
+      <enclosure
+        url="https://github.com/Elixidra/Mnara-updates/releases/download/v2.1.5/Mnara-2.1.5.dmg"
+        sparkle:edSignature="rBydgXgoRiXw2p0CdMkg6R2e8nLGu2TEqvwQEbc0lyRBwrOM9mZBp/0lpvnqR3hlyk41OzX05NKYGyojK4NxDw=="
+        length="6426891"
+        type="application/octet-stream" />
+    </item>
+<item>
       <title>Mnara 2.1.4</title>
       <sparkle:shortVersionString>2.1.4</sparkle:shortVersionString>
       <sparkle:version>65</sparkle:version>
