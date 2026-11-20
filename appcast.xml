@@ -8,20 +8,20 @@
     <description>Mnara releases</description>
     <language>en</language>
     <item>
-      <title>Mnara 2.1.8</title>
-      <sparkle:shortVersionString>2.1.8</sparkle:shortVersionString>
-      <sparkle:version>68</sparkle:version>
+      <title>Mnara 2.1.9</title>
+      <sparkle:shortVersionString>2.1.9</sparkle:shortVersionString>
+      <sparkle:version>69</sparkle:version>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <sparkle:minimumUpdateVersion>61</sparkle:minimumUpdateVersion>
       <sparkle:informationalUpdate><sparkle:belowVersion>61</sparkle:belowVersion></sparkle:informationalUpdate>
       <link>https://elixidra.com/mnara</link>
-      <pubDate>Fri, 20 Nov 2026 10:37:07 +0000</pubDate>
-      <description><![CDATA[• Reliability improvements.
+      <pubDate>Fri, 20 Nov 2026 13:48:26 +0000</pubDate>
+      <description><![CDATA[• Terms and privacy links now work.
 • Mnara 2 is a paid upgrade: elixidra.com/mnara]]></description>
       <enclosure
-        url="https://github.com/Elixidra/Mnara-updates/releases/download/v2.1.8/Mnara-2.1.8.dmg"
-        sparkle:edSignature="yR91SuCj9Ucy5wmPZrBAo6eFEEtHpDyiJo/1nMkb8ENsojYBcPi6Jo6Ghnc0dySL7v25oo2sq6Ir26awHEDHBg=="
-        length="6432365"
+        url="https://github.com/Elixidra/Mnara-updates/releases/download/v2.1.9/Mnara-2.1.9.dmg"
+        sparkle:edSignature="NYN1V+XDhKHA2PMFW2K8kItoPXl9PU89rPu4WMiU0hHGdBiuZBEYvaCJzpOPFaqvubh1UGRp8nuRKqDjtZbkCQ=="
+        length="6432107"
         type="application/octet-stream" />
     </item>
 <item>
