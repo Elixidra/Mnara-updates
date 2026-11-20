@@ -8,6 +8,21 @@
     <description>Mnara releases</description>
     <language>en</language>
     <item>
+      <title>Mnara 1.5.11</title>
+      <sparkle:shortVersionString>1.5.11</sparkle:shortVersionString>
+      <sparkle:version>60.2</sparkle:version>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <pubDate>Fri, 20 Nov 2026 08:27:11 +0000</pubDate>
+      <description><![CDATA[• The licence field is now clearly visible.
+• The Activate button is easy to read.
+• Mnara 2 is a paid upgrade: elixidra.com/mnara]]></description>
+      <enclosure
+        url="https://github.com/Elixidra/Mnara-updates/releases/download/v1.5.11/Mnara-1.5.11.dmg"
+        sparkle:edSignature="xzHYzclqS+EEHPICiR/pLYv4GDv8oSt91kyI/KT0Xc1o1ZOdlUYmpPwOFL6twG6UaBJBBTCcvGQCSEDSsa2ACQ=="
+        length="6112026"
+        type="application/octet-stream" />
+    </item>
+<item>
       <title>Mnara 2.1.7</title>
       <sparkle:shortVersionString>2.1.7</sparkle:shortVersionString>
       <sparkle:version>67</sparkle:version>
