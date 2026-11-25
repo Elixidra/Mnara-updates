@@ -8,6 +8,24 @@
     <description>Mnara releases</description>
     <language>en</language>
     <item>
+      <title>Mnara 2.1.11</title>
+      <sparkle:shortVersionString>2.1.11</sparkle:shortVersionString>
+      <sparkle:version>71</sparkle:version>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:minimumUpdateVersion>61</sparkle:minimumUpdateVersion>
+      <sparkle:informationalUpdate><sparkle:belowVersion>61</sparkle:belowVersion></sparkle:informationalUpdate>
+      <link>https://elixidra.com/mnara</link>
+      <pubDate>Wed, 25 Nov 2026 12:34:50 +0000</pubDate>
+      <description><![CDATA[• Now in 8 languages, including Arabic.
+• Full right-to-left layout in Arabic.
+• Mnara 2 is a paid upgrade: elixidra.com/mnara]]></description>
+      <enclosure
+        url="https://github.com/Elixidra/Mnara-updates/releases/download/v2.1.11/Mnara-2.1.11.dmg"
+        sparkle:edSignature="VKGjb9Ds0iuxnUx4I9XroH/h6yW8IpuQzUCasvGpsj5amgFTKgAooaCICzT/8OOsb3OK57L78De/uQPTY9TyDA=="
+        length="6812815"
+        type="application/octet-stream" />
+    </item>
+<item>
       <title>Mnara 1.5.12</title>
       <sparkle:shortVersionString>1.5.12</sparkle:shortVersionString>
       <sparkle:version>60.3</sparkle:version>
@@ -21,24 +39,6 @@
         url="https://github.com/Elixidra/Mnara-updates/releases/download/v1.5.12/Mnara-1.5.12.dmg"
         sparkle:edSignature="0owC0our5gJ14DvSnIrWLriHnvn3wRwj/kpwJEY4MB4y35XWw1IyS/AitR2wPvtSA7q81e/S2nQeSfwu0QHrCA=="
         length="6275698"
-        type="application/octet-stream" />
-    </item>
-<item>
-      <title>Mnara 2.1.10</title>
-      <sparkle:shortVersionString>2.1.10</sparkle:shortVersionString>
-      <sparkle:version>70</sparkle:version>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <sparkle:minimumUpdateVersion>61</sparkle:minimumUpdateVersion>
-      <sparkle:informationalUpdate><sparkle:belowVersion>61</sparkle:belowVersion></sparkle:informationalUpdate>
-      <link>https://elixidra.com/mnara</link>
-      <pubDate>Sun, 22 Nov 2026 19:05:40 +0000</pubDate>
-      <description><![CDATA[• Clean safe items, move others to trash.
-• See progress and stop anytime.
-• Mnara 2 is a paid upgrade: elixidra.com/mnara]]></description>
-      <enclosure
-        url="https://github.com/Elixidra/Mnara-updates/releases/download/v2.1.10/Mnara-2.1.10.dmg"
-        sparkle:edSignature="fPb5nLF3WP2JhQNemDK40Xc8BQmJOrR0SNbofbk1h4eBFZRrHO9WWa3ZqGZpFD9EYoEjChVBMw/vWThLH3T2Cg=="
-        length="6566802"
         type="application/octet-stream" />
     </item>
 <item>
