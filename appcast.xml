@@ -8,6 +8,22 @@
     <description>Mnara releases</description>
     <language>en</language>
     <item>
+      <title>Mnara 1.5.13</title>
+      <sparkle:shortVersionString>1.5.13</sparkle:shortVersionString>
+      <sparkle:version>60.4</sparkle:version>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <pubDate>Wed, 25 Nov 2026 12:44:24 +0000</pubDate>
+      <description><![CDATA[• Now in 8 languages, including Arabic.
+• Full right-to-left layout in Arabic.
+• Japanese and Chinese in beta.
+• Pick a language in Settings → General.]]></description>
+      <enclosure
+        url="https://github.com/Elixidra/Mnara-updates/releases/download/v1.5.13/Mnara-1.5.13.dmg"
+        sparkle:edSignature="s17bT/2/96aq7nqT1Nl17xzynrT9e6GFwzWjTi/YMsLl3COyYS8y5nPqd0CqRBW/kYZP7CtzpEcbQU6D4KBVCw=="
+        length="6482665"
+        type="application/octet-stream" />
+    </item>
+<item>
       <title>Mnara 2.1.11</title>
       <sparkle:shortVersionString>2.1.11</sparkle:shortVersionString>
       <sparkle:version>71</sparkle:version>
